@@ -9,7 +9,7 @@ import json
 import os
 import shutil
 import time
-
+from helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
 else:
